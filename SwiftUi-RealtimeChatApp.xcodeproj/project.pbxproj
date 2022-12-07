@@ -16,6 +16,12 @@
 		A88B421929410FF6009ECC4E /* SwiftUi_RealtimeChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88B421829410FF6009ECC4E /* SwiftUi_RealtimeChatAppTests.swift */; };
 		A88B422329410FF6009ECC4E /* SwiftUi_RealtimeChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88B422229410FF6009ECC4E /* SwiftUi_RealtimeChatAppUITests.swift */; };
 		A88B422529410FF6009ECC4E /* SwiftUi_RealtimeChatAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88B422429410FF6009ECC4E /* SwiftUi_RealtimeChatAppUITestsLaunchTests.swift */; };
+		A88B4232294110BE009ECC4E /* ChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88B4231294110BE009ECC4E /* ChatScreen.swift */; };
+		A88B423429411204009ECC4E /* ChatScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88B423329411204009ECC4E /* ChatScreenModel.swift */; };
+		A89EA76C29411DC30020FA32 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EA76B29411DC30020FA32 /* Models.swift */; };
+		A89EA76E294123300020FA32 /* userInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EA76D294123300020FA32 /* userInfo.swift */; };
+		A89EA770294123710020FA32 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EA76F294123710020FA32 /* SettingsScreen.swift */; };
+		A89EA772294125C10020FA32 /* chatMessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EA771294125C10020FA32 /* chatMessageRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		A88B421E29410FF6009ECC4E /* SwiftUi-RealtimeChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUi-RealtimeChatAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A88B422229410FF6009ECC4E /* SwiftUi_RealtimeChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUi_RealtimeChatAppUITests.swift; sourceTree = "<group>"; };
 		A88B422429410FF6009ECC4E /* SwiftUi_RealtimeChatAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUi_RealtimeChatAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A88B4231294110BE009ECC4E /* ChatScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreen.swift; sourceTree = "<group>"; };
+		A88B423329411204009ECC4E /* ChatScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreenModel.swift; sourceTree = "<group>"; };
+		A89EA76B29411DC30020FA32 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A89EA76D294123300020FA32 /* userInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userInfo.swift; sourceTree = "<group>"; };
+		A89EA76F294123710020FA32 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		A89EA771294125C10020FA32 /* chatMessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatMessageRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,12 @@
 				A88B420C29410FF6009ECC4E /* SwiftUi_RealtimeChatApp.entitlements */,
 				A88B420529410FF4009ECC4E /* SwiftUi_RealtimeChatApp.xcdatamodeld */,
 				A88B420D29410FF6009ECC4E /* Preview Content */,
+				A88B4231294110BE009ECC4E /* ChatScreen.swift */,
+				A88B423329411204009ECC4E /* ChatScreenModel.swift */,
+				A89EA76B29411DC30020FA32 /* Models.swift */,
+				A89EA76D294123300020FA32 /* userInfo.swift */,
+				A89EA76F294123710020FA32 /* SettingsScreen.swift */,
+				A89EA771294125C10020FA32 /* chatMessageRow.swift */,
 			);
 			path = "SwiftUi-RealtimeChatApp";
 			sourceTree = "<group>";
@@ -266,9 +284,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A88B420729410FF4009ECC4E /* SwiftUi_RealtimeChatApp.xcdatamodeld in Sources */,
+				A89EA770294123710020FA32 /* SettingsScreen.swift in Sources */,
+				A88B4232294110BE009ECC4E /* ChatScreen.swift in Sources */,
 				A88B420229410FF4009ECC4E /* SwiftUi_RealtimeChatAppApp.swift in Sources */,
+				A88B423429411204009ECC4E /* ChatScreenModel.swift in Sources */,
+				A89EA76E294123300020FA32 /* userInfo.swift in Sources */,
+				A89EA772294125C10020FA32 /* chatMessageRow.swift in Sources */,
 				A88B420929410FF4009ECC4E /* ContentView.swift in Sources */,
 				A88B420429410FF4009ECC4E /* Persistence.swift in Sources */,
+				A89EA76C29411DC30020FA32 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
